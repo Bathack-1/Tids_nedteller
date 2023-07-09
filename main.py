@@ -5,7 +5,7 @@ import time
 
 def hent_tiden():
     nå = datetime.now(pytz.timezone('Europe/Oslo'))
-    tid = [nå.time, nå.minute, nå.second]
+    tid = [nå.hour, nå.minute, nå.second]
     return tid
 
 
